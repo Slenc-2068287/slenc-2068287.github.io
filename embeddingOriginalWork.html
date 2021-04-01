@@ -5,17 +5,14 @@
     </head>
     <body>
         <h1>Embedding Original Work</h1>
-        1. Youtube Video starting at 3:00 with playlist feature.
-        <p>
+        <p>1. Youtube Video starting at 3:00 with playlist feature.</p>
         <iframe 
             width="560" height="315" 
             src="https://www.youtube.com/embed/esbKmlkIi2w?playlist=PL7o7A4-TJZRhzu6SWvsnqjB6JoLPlEGEs&start=180&autoplay=1" 
             title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
             encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
         </iframe>
-        <p>
-        2. Video and audio file
-        <p>
+        <p>2. Video and audio file</p>
         <video 
             width="320" height="240" controls>
             <source src="ankle.mp4" type="video/mp4">
@@ -26,17 +23,36 @@
             <source src="chopin.ogg" type="audio/ogg">
             <source src="chopin.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
-          </audio>
-        <p>
-        3. PDF embedded with object tag
-        <p>
+        </audio>
+        <p>3. PDF embedded with object tag</p>
         <object 
             data="phys.pdf" 
             width="600" height="400">
         </object>
-        </p>
-        4. RSS feed
-        <p>
-            <div id="widgetmain" style="text-align:left;overflow-y:auto;overflow-x:hidden;width:300px;background-color:transparent; border:1px solid #333333;"><div id="rsswidget" style="height:600px;"><iframe src="http://us1.rssfeedwidget.com/getrss.php?time=1617263898971&amp;x=http%3A%2F%2Ffeeds.bbci.co.uk%2Fnews%2Ftechnology%2Frss.xml&amp;w=300&amp;h=600&amp;bc=333333&amp;bw=1&amp;bgc=transparent&amp;m=20&amp;it=true&amp;t=(default)&amp;tc=333333&amp;ts=15&amp;tb=transparent&amp;il=true&amp;lc=0000FF&amp;ls=14&amp;lb=false&amp;id=true&amp;dc=333333&amp;ds=14&amp;idt=true&amp;dtc=284F2D&amp;dts=12" border="0" hspace="0" vspace="0" frameborder="no" marginwidth="0" marginheight="0" style="border:0; padding:0; margin:0; width:300px; height:600px;" id="rssOutput">Reading RSS Feed ...</iframe></div><div style="text-align:right;margin-bottom:0;border-top:1px solid #333333;" id="widgetbottom"><span style="font-size:70%"><a href="http://www.rssfeedwidget.com">rss feed widget</a>&nbsp;</span><br></div></div>
+        <p>4. RSS feed</p>
+        <?xml version="1.0" encoding="UTF-8" ?>
+        <rss version="2.0">
+        <channel>
+            <title>University of Washington</title>
+            <link><a href="https://www.washington.edu/">University Of Washington</a></link>
+            <description>Homepage</description>
+            <p></p>
+            <item>
+                <title>About</title>
+                <link><a href="https://www.washington.edu/about/?utm_source=whitebar&utm_medium=click&utm_campaign=about&utm_term=about">About Page</a></link>
+                <description>About UW</description>
+            </item>
+            <p></p>
+            <item>
+                <title>Building</title>
+                <link><a href="https://www.washington.edu/about/visionvalues/">Vision and Values</a></link>
+                <description>The primary mission of the University of Washington is the preservation, advancement, and dissemination of knowledge</description>
+            </item>
+            <p>Click the penguin</p>
+            <a href="https://www.callofduty.com/warzone">
+                <img src="penguin.JPG" alt="Penguin" style="width:200px;height:300px;">
+            </a>
+        </channel>
+        </rss>
     </body>
 </html>
