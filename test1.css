@@ -1,0 +1,104 @@
+body{
+    background-image: URL("saturn.jpeg");
+    color: lightblue;
+    font-family: 'Circular-Loom';
+}
+
+h2{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
+    text-align: center;
+}
+
+label{
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+#Account{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:solid 8px lightpink;
+    text-align: right;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+#Account legend{
+    font-weight: bold; 
+    font-size: 50px;
+    text-shadow: 2px 2px red;
+}
+
+#PersonalInformation{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:solid 8px lightpink;
+    text-align: right;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+#PersonalInformation legend{
+    font-weight: bold; 
+    font-size: 50px;
+    text-shadow: 2px 2px red;
+}
+
+#Availability{
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:solid 8px lightpink;
+    text-align: left;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+#Availability legend{
+    font-weight: bold; 
+    font-size: 50px;
+    text-shadow: 2px 2px red;
+}
+
+#Availability ul{
+    list-style-type: none;
+    padding-left: 0px;
+    font-variant: small-caps;
+}
+
+#Availability li{
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+#Availability th{
+    text-decoration: underline;
+}
+
+#PersonalStatement{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border:solid 8px lightpink;
+    text-align: left;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+#PersonalStatement legend{
+    font-weight: bold; 
+    font-size: 50px;
+    text-shadow: 2px 2px red;
+}
+
+#PersonalStatement div{
+    text-indent: 45px;
+}
